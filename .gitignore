@@ -11,7 +11,7 @@
 
 # next.js
 # 项目本地打包上传
-# /.next/
+/.next/
 /out/
 
 # production
