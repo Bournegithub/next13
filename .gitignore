@@ -10,7 +10,8 @@
 /coverage
 
 # next.js
-/.next/
+# 项目本地打包上传
+# /.next/
 /out/
 
 # production
