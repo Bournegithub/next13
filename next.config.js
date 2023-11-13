@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    assetPrefix: process.env.NODE_ENV === 'prod' ? '/next13' : '',
+    assetPrefix: process.env.NODE_ENV === 'production' ? '/next13' : '',
     // distDir: 'output',
     basePath: '/next13',
     output: 'standalone',
