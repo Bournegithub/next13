@@ -2,7 +2,7 @@ FROM node:20.9.0-alpine
 
 RUN mkdir -p /nodeServer/next13
 
-RUN chown nextjs:nodejs /nodeServer/next13
+#RUN chown nextjs:nodejs /nodeServer/next13
 
 #ENV NODE_ENV production
 
@@ -18,7 +18,7 @@ WORKDIR /nodeServer/next13
 
 ENV HOSTNAME "0.0.0.0"
 
-USER nextjs
+#USER nextjs
 
 ENV PORT 3001
 
