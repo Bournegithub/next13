@@ -5,9 +5,9 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=dev next dev -p 3001",
     "build:uat": "cross-env NODE_ENV=uat next build",
-    "build": "cross-env NODE_ENV=production next build",
-    "build:prod": "cross-env NODE_ENV=production next build",
-    "start": "cross-env NODE_ENV=production next build && next start -p 3001",
+    "build": "next build",
+    "build:prod": "next build",
+    "start": "next build && next start -p 3001",
     "lint": "next lint"
   },
   "dependencies": {
