@@ -20,10 +20,10 @@ ENV HOSTNAME "0.0.0.0"
 
 #USER nextjs
 
-ENV PORT 3001
+#ENV PORT 3001
 
 RUN npm install
 
 EXPOSE 3001
 
-ENTRYPOINT ["npm","start"]
+ENTRYPOINT ["npm", "run", "start"]
