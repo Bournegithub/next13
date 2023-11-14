@@ -6,9 +6,7 @@ COPY . /nodeServer/next13
 
 WORKDIR /nodeServer/next13
 
-RUN npm install
-
-RUN npm run build
+RUN npm i --registry=https://registry.npm.taobao.org
 
 ENV HOST 0.0.0.0
 
