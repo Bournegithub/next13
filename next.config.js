@@ -3,7 +3,7 @@ const nextConfig = {
     assetPrefix: process.env.NODE_ENV === 'production' ? '/next13' : '',
     // distDir: 'output',
     basePath: '/next13',
-    output: 'standalone',
+    // output: 'standalone',
 }
 
 module.exports = nextConfig
