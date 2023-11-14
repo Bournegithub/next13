@@ -8,6 +8,8 @@ WORKDIR /nodeServer/next13
 
 RUN npm install
 
+RUN npm run build
+
 ENV HOST 0.0.0.0
 
 EXPOSE 3001
