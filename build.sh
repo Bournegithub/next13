@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-docker image build -t next13 .
+docker image build -t next14 .

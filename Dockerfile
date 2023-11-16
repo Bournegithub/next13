@@ -1,10 +1,10 @@
 FROM node:20.9.0-alpine
 
-RUN mkdir -p /nodeServer/next13
+RUN mkdir -p /nodeServer/next14
 
-COPY . /nodeServer/next13
+COPY . /nodeServer/next14
 
-WORKDIR /nodeServer/next13
+WORKDIR /nodeServer/next14
 
 RUN npm i --registry=https://registry.npm.taobao.org
 

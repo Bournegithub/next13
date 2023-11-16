@@ -1,4 +1,4 @@
-// File: /Users/yangxuhui/WebstormProjects/micro-frontend-app-next13/app/page.tsx
+// File: /Users/yangxuhui/WebstormProjects/micro-frontend-app-next14/app/page.tsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
