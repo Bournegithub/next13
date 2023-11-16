@@ -21,7 +21,7 @@
       "static/chunks/472-e9c5271f92461ef6.js",
       "static/chunks/main-app-184114b36a1cec38.js",
       "static/css/a3d073f013d3bc87.css",
-      "static/chunks/app/nested/example/page-b696d5d4aae3d4a8.js"
+      "static/chunks/app/nested/example/page-8a2e3df1732886c5.js"
     ],
     "/nested/list/detail/[id]/page": [
       "static/chunks/webpack-62894f10f81a83f2.js",
@@ -29,15 +29,7 @@
       "static/chunks/472-e9c5271f92461ef6.js",
       "static/chunks/main-app-184114b36a1cec38.js",
       "static/css/a3d073f013d3bc87.css",
-      "static/chunks/app/nested/list/detail/[id]/page-94fbbacff15fad20.js"
-    ],
-    "/nested/list/page": [
-      "static/chunks/webpack-62894f10f81a83f2.js",
-      "static/chunks/fd9d1056-5517b4ab1905cb09.js",
-      "static/chunks/472-e9c5271f92461ef6.js",
-      "static/chunks/main-app-184114b36a1cec38.js",
-      "static/css/a3d073f013d3bc87.css",
-      "static/chunks/app/nested/list/page-b0ddd286083707d7.js"
+      "static/chunks/app/nested/list/detail/[id]/page-07edb6b47154334b.js"
     ],
     "/page": [
       "static/chunks/webpack-62894f10f81a83f2.js",
@@ -55,6 +47,14 @@
       "static/chunks/main-app-184114b36a1cec38.js",
       "static/css/a3d073f013d3bc87.css",
       "static/chunks/app/single/page-0f5bddbc876dde1f.js"
+    ],
+    "/nested/list/page": [
+      "static/chunks/webpack-62894f10f81a83f2.js",
+      "static/chunks/fd9d1056-5517b4ab1905cb09.js",
+      "static/chunks/472-e9c5271f92461ef6.js",
+      "static/chunks/main-app-184114b36a1cec38.js",
+      "static/css/a3d073f013d3bc87.css",
+      "static/chunks/app/nested/list/page-b0ddd286083707d7.js"
     ]
   }
 }
