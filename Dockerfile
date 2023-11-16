@@ -8,7 +8,6 @@ WORKDIR /nodeServer/next14
 
 RUN npm i --registry=https://registry.npm.taobao.org
 
-
 EXPOSE 3001
 
 ENV PORT 3001
