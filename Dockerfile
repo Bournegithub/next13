@@ -8,8 +8,11 @@ WORKDIR /nodeServer/next13
 
 RUN npm i --registry=https://registry.npm.taobao.org
 
-ENV HOST 0.0.0.0
 
 EXPOSE 3001
+
+ENV PORT 3001
+
+ENV HOST 0.0.0.0
 
 ENTRYPOINT ["npm", "start"]

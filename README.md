@@ -13,15 +13,15 @@ pnpm dev
 # or
 bun dev
 ```
+
 ## Node Version
 
 node: 20.9.0
-本项目部署到二级目录, https://*.*.com/next13
+本项目部署到二级目录, https://_._.com/next13
 basePath 设置为/next13
 assetPrefix 设置为/next13
 
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3001](http://localhost:3001) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
