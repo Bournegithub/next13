@@ -1,8 +1,16 @@
 /** @type {import('next').NextConfig} */
+const basePath = "/next14";
+const assetPrefix =
+  process.env.NODE_ENV === "production"
+    ? `https://microapp.yangxuhui.cn${basePath}`
+    : `http://localhost:${process.env.PORT || 3001}${basePath}`;
+
 const nextConfig = {
-  assetPrefix: process.env.NODE_ENV === "production" ? "/next14" : "",
-  // distDir: 'output',
-  basePath: "/next14",
+  basePath,
+  assetPrefix,
+  publicRuntimeConfig: {
+    assetPrefix,
+  },
   // output: 'standalone',
 };
 
